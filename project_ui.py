@@ -4,6 +4,7 @@ import pandas as pd
 import pickle
 import base64
 import openpyxl
+import xgboost
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image_file:
